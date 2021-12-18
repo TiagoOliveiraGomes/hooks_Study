@@ -1,0 +1,38 @@
+.contain {
+    flex: 1;
+    
+}
+
+.PageTittle_Normal {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #4a5ed133;
+    border-left: solid rgba(25,62,96,1) 10px;
+    padding-left: 10px; padding-right: 10px;
+}
+
+.PageTittle_Warning {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffa39981;
+    border-left: solid rgba(214, 0, 0, 0.795) 10px;
+    padding-left: 10px; padding-right: 10px;
+}
+
+.PageTittle_Normal h2{
+    margin-top: 10px; margin-bottom: 5px;
+    padding: 0;
+}
+.PageTittle_Normal p{
+    margin-top: 5px; margin-bottom: 10px;
+    padding: 0;
+}
+.PageTittle_Warning h2{
+    margin-top: 10px; margin-bottom: 5px;
+    padding: 0;
+}
+.PageTittle_Warning p{
+    margin-top: 5px; margin-bottom: 10px;
+    padding: 0;
+}
